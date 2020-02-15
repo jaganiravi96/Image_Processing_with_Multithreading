@@ -24,41 +24,60 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Grid -->
 <div class="w3-row">
+			<!-- Blog entries -->
+			<div class="w3-col l8 s12">
+				<!-- Blog entry -->
+				<div class="w3-card-4 w3-margin w3-white">
+					<!-- <img src="/w3images/woods.jpg" alt="Nature" style="width:100%"> -->
+					<div class="w3-container">
+						<h3>
+							<b>Check out the application</b>
+						</h3>
+						<h6>
+							select image consist white shade and then click on colour to
+							replace it with <span class="w3-opacity">Try with this
+								image </span>
+						</h6>
+					</div>
+					<div class="w3-container">
+						<div class="file-upload">
+							<button class="file-upload-btn" type="button"
+								onclick="$('.file-upload-input').trigger( 'click' )">Add
+								Image</button>
 
-<!-- Blog entries -->
-<div class="w3-col l8 s12">
-  <!-- Blog entry -->
-  <div class="w3-card-4 w3-margin w3-white">
-    <!-- <img src="/w3images/woods.jpg" alt="Nature" style="width:100%"> -->
-    <div class="w3-container">
-      <h3><b>Check out the application</b></h3>
-      <h6> select image consist white shade and then click on colour to replace it with <span class="w3-opacity">Try with this image </span></h6>
-    </div>
-    <div class="w3-container">
-      <div class="file-upload">
-  <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger( 'click' )">Add Image</button>
+							<div class="image-upload-wrap">
+								<input class="file-upload-input" type='file'
+									onchange="readURL(this);" accept="image/*" />
+								<div class="drag-text">
+									<h3>Drag and drop a file or select add Image</h3>
+								</div>
+							</div>
+							<div class="file-upload-content">
+								<img class="file-upload-image" src="#" alt="your image" />
+								<div class="image-title-wrap">
+									<button type="button" onclick="removeUpload()"
+										class="remove-image">
+										Remove <span class="image-title">Uploaded Image</span>
+									</button>
+									<button type="button" onclick="ProcessUpload()"
+										class="remove-image">
+										Process <br> the image
+									</button>
+								</div>
+							</div>
+							<!-- <div class="file-upload-content">
+    								<img class="file-upload-image" src="#" alt="your image" />
+    								<div class="image-title-wrap">
+      									<button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
+    								</div>
+  								</div> -->
+						</div>
+					</div>
+				</div>
+				<hr>
+			</div>
 
-  <div class="image-upload-wrap">
-    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
-    <div class="drag-text">
-      <h3>Drag and drop a file or select add Image</h3>
-    </div>
-  </div>
-  <div class="file-upload-content">
-    <img class="file-upload-image" src="#" alt="your image" />
-    <div class="image-title-wrap">
-      <button type="button" onclick="removeUpload()" class="remove-image">Remove <span class="image-title">Uploaded Image</span></button>
-    </div>
-  </div>
-</div>
-    </div>
-  </div>
-  <hr>
-
- 
-</div>
-
-<!-- Introduction menu -->
+			<!-- Introduction menu -->
 <div class="w3-col l4">
   <!-- About Card -->
   <div class="w3-card w3-margin w3-margin-top">

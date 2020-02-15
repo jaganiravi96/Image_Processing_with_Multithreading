@@ -30,3 +30,22 @@ $('.image-upload-wrap').bind('dragover', function () {
 	$('.image-upload-wrap').bind('dragleave', function () {
 		$('.image-upload-wrap').removeClass('image-dropping');
 });
+	
+	
+
+function ProcessUpload() {
+	console.log("hii");
+	var Image = document.getElementsByName("image");
+	var xmlDoc = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+	 
+	  xmlDoc.open('POST', 'http://localhost:8080/Image_Processing/AppController?stringParameter="+ravi', true);
+	  xmlDoc.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	 
+	  xmlDoc.onreadystatechange = function() {
+	    if (xmlDoc.readyState === 4 && xmlDoc.status === 200) {
+	      callback(xmlDoc);
+	    }
+	  }
+	 
+	  xmlDoc.send(Image);
+}
