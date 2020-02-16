@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html>
 <title>Image Process</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet"
-	href="https://fonts.googleapis.com/css?family=Raleway">
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link href="../css/style1.css" rel="stylesheet" type="text/css">
-<style>
-body, h1, h2, h3, h4, h5 {
-	font-family: "Raleway", sans-serif
-}
-</style>
-<body class="w3-light-grey">
-	<script class="jsbin"
-		src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="../JS/index.js"></script>
-	<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
-	<div class="w3-content" style="max-width: 1400px">
+<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="../JS/index.js"></script>
 
+<body class="w3-light-grey">
+
+	
+	<!-- w3-content  -->
+	<div class="w3-content" style="max-width: 1400px">
+	
 		<!-- Header -->
 		<header class="w3-container w3-center w3-padding-32">
 			<h1>
@@ -49,18 +44,17 @@ and is wrapped around the whole page content, except for the footer in this exam
 						</h6>
 					</div>
 					<div align="center">
-					<label class="orange"> <input type="radio" name="color"
-						value="orange">
+					<label class="orange"> <input type="radio" name="color"	value="orange">
 						<div class="button">
 							<span></span>
 						</div>
-					</label> <label class="amber"> <input type="radio" name="color"
-						value="amber">
+					</label>
+					 <label class="amber"> <input type="radio" name="color"	value="amber">
 						<div class="button">
 							<span></span>
 						</div>
-					</label> <label class="lime"> <input type="radio" name="color"
-						value="lime">
+					</label> 
+					<label class="lime"> <input type="radio" name="color" value="lime">
 						<div class="button">
 							<span></span>
 						</div>
@@ -69,13 +63,13 @@ and is wrapped around the whole page content, except for the footer in this exam
 						<div class="button">
 							<span></span>
 						</div>
-					</label> <label class="blue"> <input type="radio" name="color"
-						value="blue">
+					</label>
+					<label class="blue"> <input type="radio" name="color" value="blue">
 						<div class="button">
 							<span></span>
 						</div>
-					</label> <label class="indigo"> <input type="radio" name="color"
-						value="indigo">
+					</label>
+					<label class="indigo"> <input type="radio" name="color" value="indigo">
 						<div class="button">
 							<span></span>
 						</div>
@@ -149,9 +143,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 			<!-- END GRID -->
 		</div>
-		<br>
 
-		<!-- END w3-content -->
 	</div>
 
 	<!-- Footer -->
