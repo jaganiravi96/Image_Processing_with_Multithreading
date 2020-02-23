@@ -19,7 +19,9 @@ public class AppController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
+		//===========================================================================================
 		//process the request come from jsp page
+		//===========================================================================================
 		String source_file = "";
 		String destination_file = "";
 		ImageDAO dao = new ImageDAOImpl();

@@ -4,29 +4,31 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="../css/style.css" rel="stylesheet" type="text/css">
 <link href="../css/style1.css" rel="stylesheet" type="text/css">
+
 <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="../JS/index.js"></script>
 
 <body class="w3-light-grey">
 
-	
-	<!-- w3-content  -->
-	<div class="w3-content" style="max-width: 1400px">
-	
-		<!-- Header -->
-		<header class="w3-container w3-center w3-padding-32">
+	<!--====================Start Header===================== -->
+	<header class="w3-container w3-center w3-padding-32">
 			<h1>
 				<b>Image Processing</b>
 			</h1>
 			<p>
-				With help of Multithreading in <span class="w3-tag">JAVA</span>
+				With help of Multi-threading in <span class="w3-tag">JAVA</span>
 			</p>
 		</header>
-
-		<!-- Grid -->
+	<!--====================End Header======================= -->
+	
+	<!-- ====================Start w3-content================ -->
+	<div class="w3-content" style="max-width: 1400px">
+	
+		<!--==================== Start GRID ====================-->
 		<div class="w3-row">
 			<!-- Blog entries -->
 			<div class="w3-col l8 s12">
@@ -39,17 +41,17 @@
 						</h3>
 						<h6>
 							select image consist white shade and then click on color to
-							replace it with <span class="w3-opacity">Try with this
-								image </span>
+							replace it with <span class="w3-opacity">Try with this image </span>
 						</h6>
 					</div>
+					<!-- ====================color button started here=================================  -->
 					<div align="center">
 					<label class="orange"> <input type="radio" name="color"	value="orange">
 						<div class="button">
 							<span></span>
 						</div>
 					</label>
-					 <label class="amber"> <input type="radio" name="color"	value="amber">
+					<label class="amber"> <input type="radio" name="color"	value="amber">
 						<div class="button">
 							<span></span>
 						</div>
@@ -58,8 +60,8 @@
 						<div class="button">
 							<span></span>
 						</div>
-					</label> <label class="teal"> <input type="radio" name="color"
-						value="teal">
+					</label> 
+					<label class="teal"> <input type="radio" name="color" value="teal">
 						<div class="button">
 							<span></span>
 						</div>
@@ -75,6 +77,8 @@
 						</div>
 					</label>
 					</div>
+					<!-- ====================color button ended here===================================  -->
+					<!-- ====================Image Upload started here=================================  -->
 					<div class="w3-container">
 						<div class="file-upload">
 							<button class="file-upload-btn" type="button"
@@ -104,11 +108,11 @@
 							</div>
 						</div>
 					</div>
+					<!-- ====================Image Upload ended here===================================  -->
 				</div>
-				<hr>
 			</div>
 
-			<!-- Introduction menu -->
+			<!-- ====================Start Introduction menu==================== -->
 			<div class="w3-col l4">
 				<!-- About Card -->
 				<div class="w3-card w3-margin w3-margin-top">
@@ -137,16 +141,16 @@
 					</div>
 				</div>
 				<hr>
-
-				<!-- END Introduction Menu -->
 			</div>
-
-			<!-- END GRID -->
+			<!--==================== END Introduction Menu ====================-->
+			
 		</div>
+		<!--==================== END GRID ======================-->
 
 	</div>
+	<!-- ====================End w3-content================== -->
 
-	<!-- Footer -->
+	<!-- ====================Start Footer==================== -->
 	<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
 		<a href="https://www.linkedin.com/in/jaganiravi96/" target="_blank"><button
 				class="w3-button w3-black w3-padding-large w3-margin-bottom">Linkedin</button></a>
@@ -158,7 +162,8 @@
 				href="mailto: jaganiravi96@gmail.com">jaganiravi96@gmail.com</a>
 		</p>
 	</footer>
-
+	<!-- ====================End Footer====================== -->
+	
 </body>
 </html>
 

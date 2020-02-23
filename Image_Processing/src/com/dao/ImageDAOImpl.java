@@ -3,8 +3,10 @@ package com.dao;
 import java.awt.image.BufferedImage;
 
 public class ImageDAOImpl implements ImageDAO{
-
+	
+	//===========================================================================================
 	// Read the image add pass each pixel value
+	//===========================================================================================
 	@Override
 	public void reColorImage(BufferedImage originalImage, BufferedImage resultImage, int leftCorner, int rightCorner, int width, int height) {
 		for(int x = leftCorner; x < leftCorner + width &&  x < originalImage.getWidth() ; x++) {
@@ -13,8 +15,10 @@ public class ImageDAOImpl implements ImageDAO{
 			}
 		}
 	}
-
+	
+	//===========================================================================================
 	//recolor the pixel in result image by comparing its value
+	//===========================================================================================
 	@Override
 	public void reColorPixel(BufferedImage originalImage, BufferedImage resultImage, int x, int y) {
 		int rgb = originalImage.getRGB(x, y);		
