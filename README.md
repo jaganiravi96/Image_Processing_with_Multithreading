@@ -22,13 +22,13 @@ To run the project, type the following in the browser:
 ------------------------------------------------------------------
 
 MultiThreading Features
-=================================
+------------------------------------------------------------------
 Divide the image by its pixel value
 and convert with select color
 
 
 Particular to the Website - 
-=================================
+------------------------------------------------------------------
 Can select diffrent color,
 browse image or drag & drop
 
