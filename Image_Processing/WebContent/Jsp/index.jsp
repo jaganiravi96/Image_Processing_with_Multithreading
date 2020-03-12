@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html>
-<title>Image Process</title>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="../css/style.css" rel="stylesheet" type="text/css">
-<link href="../css/style1.css" rel="stylesheet" type="text/css">
-
-<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="../JS/index.js"></script>
-
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link href="../css/style.css" rel="stylesheet" type="text/css">
+	<link href="../css/style1.css" rel="stylesheet" type="text/css">
+	
+	<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="../JS/index.js"></script>
+	
+	<title>Image Process</title>
+</head>
 <body class="w3-light-grey">
 
 	<!--====================Start Header===================== -->
 	<header class="w3-container w3-center w3-padding-32">
-			<h1>
-				<b>Image Processing</b>
-			</h1>
-			<p>
-				With help of Multi-threading in <span class="w3-tag">JAVA</span>
-			</p>
-		</header>
+			<h1><b>Image Processing</b>	</h1>
+			<p>	With help of Multi-threading in <span class="w3-tag">JAVA</span></p>
+	</header>
 	<!--====================End Header======================= -->
 	
 	<!-- ====================Start w3-content================ -->
@@ -45,6 +42,7 @@
 						</h6>
 					</div>
 					<!-- ====================color button started here=================================  -->
+					<button class="orange111">hiii</button>
 					<div align="center">
 					<label class="orange"> <input type="radio" name="color"	value="orange">
 						<div class="button">
@@ -140,7 +138,6 @@
 						</p>
 					</div>
 				</div>
-				<hr>
 			</div>
 			<!--==================== END Introduction Menu ====================-->
 			
@@ -152,18 +149,16 @@
 
 	<!-- ====================Start Footer==================== -->
 	<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
-		<a href="https://www.linkedin.com/in/jaganiravi96/" target="_blank"><button
-				class="w3-button w3-black w3-padding-large w3-margin-bottom">Linkedin</button></a>
-		<a href="https://github.com/jaganiravi96" target="_blank"><button
-				class="w3-button w3-black w3-padding-large w3-margin-bottom">Git
-				Profile</button></a>
-		<p>
-			For More details contact me @: <a
-				href="mailto: jaganiravi96@gmail.com">jaganiravi96@gmail.com</a>
-		</p>
+		<a href="https://www.linkedin.com/in/jaganiravi96/" target="_blank">
+			<button	class="w3-button w3-black w3-padding-large w3-margin-bottom">Linkedin</button>
+		</a>
+		<a href="https://github.com/jaganiravi96" target="_blank">
+			<button	class="w3-button w3-black w3-padding-large w3-margin-bottom">Git Profile</button>
+		</a>
+		<p>	For More details contact me @: <a href="mailto: jaganiravi96@gmail.com">jaganiravi96@gmail.com</a></p>
 	</footer>
 	<!-- ====================End Footer====================== -->
-	
+
 </body>
 </html>
 

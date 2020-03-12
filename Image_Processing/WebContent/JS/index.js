@@ -49,3 +49,7 @@ function ProcessUpload() {
 	 
 	  xmlDoc.send(Image);
 }
+
+document.querySelector('.orange111').addEventListener('click', function(){
+	console.log("orange");
+});
